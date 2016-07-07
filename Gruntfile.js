@@ -73,6 +73,11 @@ module.exports = function(grunt) {
   // Main grunt tasks
   ////////////////////////////////////////////////////
 
+
+  grunt.registerTask('server-dev', [
+    'nodemon'
+  ]);
+  
   grunt.registerTask('test', [
     'mochaTest'
   ]);
