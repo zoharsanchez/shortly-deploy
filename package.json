@@ -41,6 +41,10 @@
     "sqlite3": "~3.1.1"
   },
   "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-eslint": "0.0.5",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-push": "^0.1.1",
     "supertest": "^1.2.0"
   }
 }
